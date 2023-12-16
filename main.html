@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Your Page Title</title>
+
+    <!-- Chatra {literal} -->
+    
+
+<script>
+
+window.ChatraSetup = {
+    mode: 'frame',
+    /* id of the block you want to embed chat into */
+    injectTo: 'chatbox'
+};
+        (function(d, w, c) {
+            w.ChatraID = 'JRPGnnfhH4weyFuaM';
+            var s = d.createElement('script');
+            w[c] = w[c] || function() {
+                (w[c].q = w[c].q || []).push(arguments);
+            };
+            s.async = true;
+            s.src = 'https://call.chatra.io/chatra.js';
+            if (d.head) d.head.appendChild(s);
+
+            // Open the chatbox when the script is loaded
+            w[c]('openChat', true);
+        })(document, window, 'Chatra');
+    </script>
+    <!-- /Chatra {/literal} -->
+
+
+<style>
+  div {
+  display: table;
+  margin-right: auto;
+  margin-left: auto;
+  margin-top: 15%;
+}
+</style>  
+</head>
+<body>
+    <div id="chatbox" style="width: 100%; height: 500px;"></div>
+
+</body>
+</html>
